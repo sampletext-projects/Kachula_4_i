@@ -12,14 +12,14 @@ int main()
 
 	for (double x = 0; x <= 1.2; x += 0.05)
 	{
-		double result = 0;
+		double y = 0;
 		double a = 1;
 		for (int i = 0; i < 20; i++)
 		{
-			result += (i + 1) * a;
+			y += (i + 1) * a;
 			a *= x;
 		}
-		cout << "y(" << x << ") = " << result << endl;
+		cout << "y(" << x << ") = " << y << endl;
 	}
 
 	return 0;
